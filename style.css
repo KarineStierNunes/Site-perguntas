@@ -1,0 +1,38 @@
+:root{
+    --cor-fundo: black;
+    --cor-da-letra: white;
+    --cor-do-corpo: #31470b;
+
+}
+Body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-da-letra);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+.caixa-principal{
+    background-color: var(--cor-do-corpo);
+    width: 50%;
+    padding: 40px;
+    max-width: 600px;
+    border-radius: 20px;
+}
+h1{
+    color: white;
+}
+button{
+    background-color: #7582c7;
+    color: var(--cor-da-letra);
+    border: none;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: var(--cor-fundo);
+    color: var(--cor-da-letra);
+}
